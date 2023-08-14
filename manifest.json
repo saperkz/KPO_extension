@@ -1,0 +1,29 @@
+{
+    "name": "KPO open ITSM",
+    "version": "0.0.0.1",
+    "manifest_version": 3,
+    "description": "An extension to open incident/cd/fs of ITSM.",
+    "icons": {
+        
+        "32": "icons/nasapod32x32.png"
+        
+        
+    },
+    "action": {
+        "default_popup": "popup/popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+              "<all_urls>"
+            ],
+            "js": ["lib/jquery.min.js","content-scripts/content.js"]
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": ["images/*.jpeg"],
+            "matches": ["<all_urls>"]
+        }
+    ]
+}
