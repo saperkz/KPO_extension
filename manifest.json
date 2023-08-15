@@ -5,7 +5,7 @@
     "description": "An extension to open incident/cd/fs of ITSM.",
     "icons": {
         
-        "32": "icons/nasapod32x32.png"
+        "32": "icons/kpo32x32.png"
         
         
     },
@@ -17,13 +17,8 @@
             "matches": [
               "<all_urls>"
             ],
-            "js": ["lib/jquery.min.js","content-scripts/content.js"]
-        }
-    ],
-    "web_accessible_resources": [
-        {
-            "resources": ["images/*.jpeg"],
-            "matches": ["<all_urls>"]
+            "js": ["lib/jquery.min.js"]
         }
     ]
+  
 }
