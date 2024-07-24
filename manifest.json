@@ -1,8 +1,8 @@
 {
-    "name": "KPO open ITSM",
-    "version": "0.0.0.1",
+    "name": "KPO open ITSM_v2",
+    "version": "0.0.0.2",
     "manifest_version": 3,
-    "description": "An extension to open incident/cd/fs of ITSM.",
+    "description": "An extension to open incident/cd/fs of ITSM. Author: OMAROO",
     "icons": {
         
         "32": "icons/kpo32x32.png"
@@ -11,14 +11,7 @@
     },
     "action": {
         "default_popup": "popup/popup.html"
-    },
-    "content_scripts": [
-        {
-            "matches": [
-              "<all_urls>"
-            ],
-            "js": ["lib/jquery.min.js"]
-        }
-    ]
+    }
+    
   
 }
